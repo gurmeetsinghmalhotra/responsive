@@ -1,0 +1,17 @@
+{
+  "name": "responsive",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "mobile-detect": "^1.4.4",
+    "next": "9.5.3",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "semantic-ui-react": "^1.2.1"
+  }
+}
