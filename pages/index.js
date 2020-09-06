@@ -79,6 +79,7 @@ const getWidthFactory = isMobileFromSSR => () => {
 };
 
 Homepage.getInitialProps = async ({ req }) => {
+  console.log('here');
   const md = new MobileDetect(req.headers["user-agent"]);
   const isMobileFromSSR = !!md.mobile();
 
